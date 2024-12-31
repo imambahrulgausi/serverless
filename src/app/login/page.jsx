@@ -1,5 +1,6 @@
 import { login, signup } from './actions';
 
+
 export default function LoginPage({ searchParams }) {
   const message = searchParams.message;
   console.log(message);
